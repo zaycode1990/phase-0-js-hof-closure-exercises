@@ -1,4 +1,4 @@
-# Phase 0 Exercises
+# Higer-Order Functions & Closures
 
 ## Learning Goals
 
