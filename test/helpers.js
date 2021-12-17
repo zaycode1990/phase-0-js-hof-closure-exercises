@@ -1,6 +1,8 @@
 const chai = require('chai')
 const sinon = require('sinon')
+const sinonChai = require('sinon-chai')
 global.expect = chai.expect
+chai.use(sinonChai)
 const fs = require('fs')
 const jsdom = require('mocha-jsdom')
 const path = require('path')
